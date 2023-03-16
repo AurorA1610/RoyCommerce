@@ -1,0 +1,10 @@
+.carousel {
+  background: rgb(254, 234, 233);
+}
+.carousel .price {
+  color: rgb(255, 48, 128);
+}
+.carousel .buy-now-btn{
+    background: rgb(255, 48, 128);
+    color: white;
+}
