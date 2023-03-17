@@ -1,10 +1,37 @@
+html,
+body {
+  overflow-x: hidden;
+}
 .carousel {
   background: rgb(254, 234, 233);
 }
 .carousel .price {
   color: rgb(255, 48, 128);
 }
-.carousel .buy-now-btn{
-    background: rgb(255, 48, 128);
-    color: white;
+.buy-now-btn {
+  background: rgb(255, 48, 128);
+  color: white;
+}
+.buy-now-btn:hover {
+  color: rgb(255, 48, 128);
+  border: rgb(255, 48, 128) solid 1px;
+  background: #fff;
+  transition: 0.3s ease-in-out;
+}
+.categories .col-lg-4:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+.card:hover {
+  background: rgba(215, 204, 204, 0.708);
+  transition: 0.3s ease-out;
+}
+.card:hover .card-img-top {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 576px) {
+  .carousel {
+    height: 400px;
+  }
 }
