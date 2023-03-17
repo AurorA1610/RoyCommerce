@@ -9,7 +9,7 @@ body {
   color: rgb(255, 48, 128);
 }
 .custom-btn {
-  background: rgb(255, 48, 128);
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
   color: white;
 }
 .custom-btn:hover {
@@ -32,12 +32,15 @@ body {
 }
 .subscription {
   background-color: #fceae8;
-  height: 400px
+  height: 400px;
 }
 
-.form-control:focus{
+.form-control:focus {
   box-shadow: 0 0 0 0.25rem rgb(227, 186, 193);
-   border-color: rgb(246, 179, 190);
+  border-color: rgb(246, 179, 190);
+}
+.form-control:hover {
+  border-color: rgb(246, 179, 190);
 }
 @media screen and (max-width: 576px) {
   .carousel {
