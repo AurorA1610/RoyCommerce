@@ -32,6 +32,7 @@ body {
 }
 .subscription {
   background-color: #fceae8;
+  height: 400px
 }
 
 .form-control:focus{
