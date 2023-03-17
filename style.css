@@ -8,11 +8,11 @@ body {
 .carousel .price {
   color: rgb(255, 48, 128);
 }
-.buy-now-btn {
+.custom-btn {
   background: rgb(255, 48, 128);
   color: white;
 }
-.buy-now-btn:hover {
+.custom-btn:hover {
   color: rgb(255, 48, 128);
   border: rgb(255, 48, 128) solid 1px;
   background: #fff;
@@ -29,6 +29,14 @@ body {
 .card:hover .card-img-top {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+.subscription {
+  background-color: #fceae8;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 0 0.25rem rgb(227, 186, 193);
+   border-color: rgb(246, 179, 190);
 }
 @media screen and (max-width: 576px) {
   .carousel {
